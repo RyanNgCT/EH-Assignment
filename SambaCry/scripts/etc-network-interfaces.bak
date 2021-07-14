@@ -1,0 +1,15 @@
+source /etc/network/interfaces.d/*
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto ens33
+iface ens33 inet dhcp
+
+
+auto ens38
+iface ens38 inet dhcp
+	dns-nameservers 192.168.75.192
+	dns-search COMPANY13.com
