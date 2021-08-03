@@ -4,12 +4,10 @@ source /etc/network/interfaces.d/*
 auto lo
 iface lo inet loopback
 
-# The primary network interface
-auto ens33
-iface ens33 inet dhcp
+# The primary network interface (hamachi/internet comms)
+auto eth0
+iface eth0 inet dhcp
 
-
-auto ens38
-iface ens38 inet dhcp
-	dns-nameservers 192.168.75.192
-	dns-search COMPANY13.com
+# additional interface for host-only (comms w WinServer)
+auto eth1
+iface eth1 inet dhcp
