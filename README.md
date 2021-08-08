@@ -9,7 +9,7 @@ Scripts for NP CSF Ethical Hacking Module Assignment
 2. VMs
 * VMware Workstation Pro 15/16
 * [Ubuntu *Server* 14.04.5 iso](https://old-releases.ubuntu.com/releases/14.04.5/)
-* Windows 10 2019 iso
+* Windows 10 Server 2019 iso
 * [Kali Linux 2021.1 or newer iso](https://cdimage.kali.org/)
 
 *iso images should be `amd64` to allow for virtualization on Windows
