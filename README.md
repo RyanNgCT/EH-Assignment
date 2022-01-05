@@ -9,7 +9,7 @@ Assignment demonstrates SambaCry (CVE-2017-7494) and ZeroLogon (CVE-2020-1472). 
 - Pivoting
 - Post-Exploitation Activities
 
-> **Disclaimer:** The author is **NOT** responsible to any breach of computer system(s) and/or violation of National or International Computer Security Laws, including but not limited to _Singapore Computer Misuse and Cybersecurity Act Chapter 50A_. By viewing this material, you agree to not use this for malicious intent and for the sole reason of educational purposes only.
+> **Disclaimer:** The author is **NOT** responsible to any breach of computer system(s) and/or violation of National or International Computer Security Laws by third parties (you) accessing this material, including but not limited to _Singapore Computer Misuse and Cybersecurity Act Chapter 50A_. By viewing this material, you agree to not use this for malicious intent and for the sole reason of educational purposes only.
 
 
 ## Case Scenario
