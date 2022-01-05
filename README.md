@@ -56,3 +56,7 @@ $ source impacket/bin/activate
 $ pip install --upgrade pip
 $ pip install .
 ```
+
+## Contributions and Thanks
+- [@0xConda or C0nd4](https://www.youtube.com/c/c0nd4/videos)
+- Ng Ray Son
