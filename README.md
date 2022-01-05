@@ -9,12 +9,15 @@ Attack includes
 - Pivoting
 - Post-Exploitation Activities
 
+> **Disclaimer:** The author is **NOT** responsible to any breach of computer system(s) and/or violation of National or International Computer Security Laws, including but not limited to _Singapore Computer Misuse and Cybersecurity Act Chapter 50A_. By viewing this material, you agree to not use this for malicious intent and for the sole reason of educational purposes only.
+
+
 ## Case Scenario
 
-```
-Mel is a disgruntled employee of Company13. During COVID-19, the company deployed the Hamachi VPN service to allow employees to work from home, to access the company file shares via the Samba protocol hosted on an Ubuntu File server. 
-Mel decides to use this opportunity to attack the outdated version of Samba and compromise the server using SambaCry. Since the Samba File Server has an interface communicating with Active Directory Domain, Mel can pivot to and exploit the Domain Controller with the Zerologon vulnerability to steal domain credentials and exfiltrate the company’s data.
-```
+
+> Mel is a disgruntled employee of Company13. During COVID-19, the company deployed the Hamachi VPN service to allow employees to work from home, to access the company file shares via the Samba protocol hosted on an Ubuntu File server. 
+
+> Mel decides to use this opportunity to attack the outdated version of Samba and compromise the server using SambaCry. Since the Samba File Server has an interface communicating with Active Directory Domain, Mel can pivot to and exploit the Domain Controller with the Zerologon vulnerability to steal domain credentials and exfiltrate the company’s data.
 
 
 ## Requirements
