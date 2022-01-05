@@ -3,7 +3,7 @@ Scripts for NP CSF Ethical Hacking Module Assignment.
 
 Assignment demonstrates SambaCry (CVE-2017-7494) and ZeroLogon (CVE-2020-1472). Designed to replicate an enterprise pentest/attack scenario.
 
-Attack includes
+ The **Simulated** Attack includes the following components
 - Scanning and Enumeration
 - Exploitation
 - Pivoting
@@ -14,11 +14,12 @@ Attack includes
 
 ## Case Scenario
 
-
 > Mel is a disgruntled employee of Company13. During COVID-19, the company deployed the Hamachi VPN service to allow employees to work from home, to access the company file shares via the Samba protocol hosted on an Ubuntu File server. 
 
 > Mel decides to use this opportunity to attack the outdated version of Samba and compromise the server using SambaCry. Since the Samba File Server has an interface communicating with Active Directory Domain, Mel can pivot to and exploit the Domain Controller with the Zerologon vulnerability to steal domain credentials and exfiltrate the company’s data.
 
+## Network Diagram
+![image](https://user-images.githubusercontent.com/48358569/148192373-c956e21f-d2b9-49fe-aaae-99c3610693ef.png)
 
 ## Requirements
 
